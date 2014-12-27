@@ -35,6 +35,7 @@ type MappingOptions struct {
 
 type TimestampOptions struct {
 	Enabled bool `json:"enabled"`
+	Store   bool `json:"store"`
 }
 
 type AnalyzerOptions struct {
